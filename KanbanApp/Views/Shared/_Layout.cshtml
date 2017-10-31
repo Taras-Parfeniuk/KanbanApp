@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - KanbanApp</title>
+	<base href="~/" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+	<environment exclude="Development">
+		<link rel="stylesheet" href="~/dist/site.css" asp-append-version="true" />
+	</environment>
+</head>
+<body>
+	@RenderBody()
+
+	<script src="~/dist/vendor.js" asp-append-version="true"></script>
+	@RenderSection("scripts", required: false)
+</body>
+</html>

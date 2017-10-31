@@ -1,0 +1,10 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card-list > .card-title {
+    padding-left: 15px;
+}
